@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE YOU</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // create the GIF
+            const gif = document.createElement('img');
+            gif.src = 'media/ThankYou.gif';
+            gif.style.display = 'block';
+            gif.style.margin = '0 auto';
+            document.body.appendChild(gif);
+
+            // Create the text
+            const text = document.createElement('p');
+            text.textContent = "OMG THANK YOU I LOVE YOU!!!";
+            text.style.textAlign = 'center';
+            text.style.fontSize = 'large';
+            text.style.fontWeight = 'bold';
+            document.body.appendChild(text);
+
+            const text2 = document.createElement('p');
+            text2.textContent = "I'M THE LUCKEST GUY EVER!";
+            text2.style.textAlign = 'center';
+            text2.style.fontSize = 'large';
+            text2.style.fontWeight = 'bold';
+            document.body.appendChild(text2);
+            })
+    </script>
+</body>
+</html>
